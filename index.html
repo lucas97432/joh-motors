@@ -7,35 +7,76 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- HEADER + NAV -->
 <header>
-<h1>Joh Motor's</h1>
-<p>Achetez votre véhicule le moins cher du marché selon votre désir</p>
+<div class="logo">Joh Motor's</div>
+<nav>
+<ul>
+<li><a href="#accueil">Accueil</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#choisir">Pourquoi nous choisir</a></li>
+<li><a href="#commander">Commander</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 </header>
 
+<!-- ACCUEIL -->
+<section id="accueil" class="hero">
+<h1>Achetez votre véhicule au meilleur prix</h1>
+<p>De -10% à -40% selon le modèle • Garantie & suivi inclus</p>
+<a href="#services" class="btn">Découvrir nos services</a>
+</section>
+
+<!-- SERVICES -->
 <section id="services">
 <h2>Nos Services</h2>
+<div class="services-container">
+<div class="card">Mise en relation clients - apporteur d’affaires</div>
+<div class="card">Vente de voitures (-10% à -40%)</div>
+<div class="card">Garantie et suivi des véhicules</div>
+<div class="card">Commande de voitures personnalisées</div>
+</div>
+</section>
+
+<!-- POURQUOI NOUS CHOISIR -->
+<section id="choisir" class="alt">
+<h2>Pourquoi choisir Joh Motor's ?</h2>
 <ul>
-<li>Mise en relation clients - apporteur d’affaires</li>
-<li>Vente de voitures (-10% à -40% selon modèle)</li>
-<li>Garantie et suivi des véhicules</li>
-<li>Commande de voitures personnalisées</li>
+<li>✅ Des prix imbattables sur le marché</li>
+<li>✅ Des véhicules garantis et suivis</li>
+<li>✅ Un accompagnement personnalisé</li>
+<li>✅ Un service professionnel et rapide</li>
 </ul>
 </section>
 
-<section id="contact">
-<h2>Contactez-nous</h2>
+<!-- COMMANDER -->
+<section id="commander">
+<h2>Commander votre voiture</h2>
+<p>Remplissez ce formulaire et nous vous recontactons rapidement.</p>
 <form action="https://formsubmit.co/calpetardjohann@gmail.com" method="POST">
 <input type="text" name="nom" placeholder="Votre nom" required>
 <input type="email" name="email" placeholder="Votre email" required>
-<textarea name="message" placeholder="Votre message" required></textarea>
+<input type="tel" name="telephone" placeholder="Votre téléphone" required>
+<textarea name="message" placeholder="Votre demande (budget, modèle...)" required></textarea>
 <button type="submit">Envoyer</button>
 </form>
-<p>Téléphone : 0646453957</p>
-<p>Email : calpetardjohann@gmail.com</p>
 </section>
 
+<!-- CONTACT -->
+<section id="contact" class="alt">
+<h2>Contactez-nous</h2>
+<p><strong>Téléphone :</strong> 0646453957</p>
+<p><strong>Email :</strong> calpetardjohann@gmail.com</p>
+<p><strong>WhatsApp :</strong> Disponible</p>
+</section>
+
+<!-- FOOTER -->
 <footer>
 <p>&copy; 2025 Joh Motor's - Tous droits réservés</p>
+<p>Site de mise en relation clientèle • Dirigeant : Calpetard Johann</p>
 </footer>
+
 </body>
 </html>
